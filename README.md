@@ -47,3 +47,58 @@ After cleaning, the `Fio2` column had:
 - Missing values filled with the mode
 - A final range of **21.0 to 100.0**
 - No remaining missing values
+
+## Student Challenge: Clinical Data Visualisation
+
+For the student challenge section of Tutorial 3, I created additional visualisations using the cleaned Mercer General Emergency Department dataset. The goal was to produce plots that were clinically meaningful, clearly labelled, and supported by appropriate reference lines.
+
+### 1. Respiratory Rate vs FiO2 Scatter Plot
+
+The first plot explores the relationship between **Respiratory Rate (RR)** and **Fraction of Inspired Oxygen (FiO2)**.
+
+**Clinical question:**  
+Do patients with higher respiratory rates tend to receive higher FiO2?
+
+A scatter plot was used because both respiratory rate and FiO2 are numeric variables. Respiratory rate was placed on the x-axis because it can act as an indicator of respiratory distress, while FiO2 was placed on the y-axis to show the level of oxygen support given to the patient.
+
+Clinical reference lines were added at:
+
+- **21% FiO2**, representing room air
+- **100% FiO2**, representing maximum oxygen support
+
+This helped make the plot easier to interpret clinically by showing whether patients were receiving normal room air levels or increased oxygen support.
+
+### 2. Respiratory Rate Histogram
+
+The second plot shows the distribution of respiratory rates across patients in the emergency department dataset.
+
+**Clinical question:**  
+How are respiratory rates distributed in relation to abnormal adult respiratory rate ranges?
+
+A histogram was used because respiratory rate is one numeric variable, and the goal was to observe its distribution across the dataset. The bins were calculated in intervals of 2 breaths per minute to give a clear view of how respiratory rates were spread.
+
+Clinical reference zones were added for:
+
+- **Bradypnea:** less than 12 breaths per minute
+- **Normal/Eupnea:** 12–20 breaths per minute
+- **Tachypnea:** greater than 20 breaths per minute
+
+These clinical zones helped show how many patients had respiratory rates within the expected adult range and how many may have shown signs of abnormal breathing patterns.
+
+### Skills Practiced
+
+Through this challenge, I practiced:
+
+- Selecting appropriate plot types based on the data and clinical question
+- Using scatter plots to compare two numeric variables
+- Using histograms to show the distribution of one numeric variable
+- Adding clinical reference lines and shaded zones
+- Labelling axes, titles, and legends clearly
+- Saving visualisations as PNG files for GitHub and reporting
+
+### Output Files
+
+The visualisations created in this section were saved as:
+
+- `my_plot.png` — Respiratory Rate vs FiO2 scatter plot
+- `my_plot2.png` — Respiratory Rate distribution histogram
