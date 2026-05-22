@@ -3,13 +3,18 @@ Repository for Week 0 CariSurg Programme Submissions
 
 ## Project Overview
 
+This repository contains my Week 0, Tutorial  submissions  for the **CariSurg MedTech Pathways** programme.
+The notebooks focus on basic Python data exploration, cleaning and visualizing using a sample emergency triage dataset from the Mercer General Hospital scenario.
+
+
+# Task1_CleaningGenderColumn is a Jupyter Notebook:
+## Project Overview
+
 This repository contains my Week 0, Tutorial 1 submission for the **CariSurg MedTech Pathways** programme.
 The notebook focuses on basic Python data exploration and cleaning using a sample emergency triage dataset from the Mercer General Hospital scenario.
 
 The main objective: 
 - To clean the `Gender` column by converting inconsistent gender values into a consistent numeric format.
-
-# Task1_CleaningGenderColumn is a Notebook that covers:
 - Setting up the Python/Google Colab environment
 - Importing common data analysis libraries
 - Loading a CSV dataset with `pandas`
